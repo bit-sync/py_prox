@@ -1,0 +1,26 @@
+[project]
+name = "py_prox"
+version = "1.0.0"
+description = "Proxmox Api library"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Zachary Jones", email = "zacharyj@bitsyncdev.com" }
+]
+homepage = "https://github.com/bit-sync/py_prox"
+requires-python = ">=3.7"
+dependencies = [
+    # List your dependencies here, e.g. "requests>=2.25"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.urls]
+# Documentation = "https://github.com/bit-sync/py_prox"
+Source = "# Documentation = "https://github.com/bit-sync/py_prox"
+Tracker = "# Documentation = "https://github.com/bit-sync/py_prox/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["py_prox"]
